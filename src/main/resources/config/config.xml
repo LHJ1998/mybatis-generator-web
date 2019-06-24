@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <!--<classPathEntry location="mysql-connector-java-5.1.46.jar"/>-->
+    <context id="my" targetRuntime="MyBatis3">
+
+        <!-- 自动识别数据库关键字，默认false -->
+        <property name="autoDelimitKeywords" value="true" />
+        <!--使用``包括字段名，避免字段名与sql保留字冲突报错 -->
+        <property name="beginningDelimiter" value="`" />
+        <property name="endingDelimiter" value="`" />
+
+        <commentGenerator>
+            <property name="suppressDate" value="true"/>
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+
+    </context>
+</generatorConfiguration>
