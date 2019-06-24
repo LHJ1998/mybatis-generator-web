@@ -69,7 +69,7 @@ java -jar mybatis-generator-core-1.3.7.jar -configfile config.xml -overwrite
 
 如果选择使用WEB UI就会简单很多了
 
-![1561365939183](image\WEB UI.png)
+![1561365939183](https://github.com/LHJ1998/mybatis-generator-web/blob/master/image/WEB%20UI.png)
 
 如上图，操作很简单就可以生成了
 
