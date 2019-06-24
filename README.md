@@ -79,7 +79,7 @@ java -jar mybatis-generator-core-1.3.7.jar -configfile config.xml -overwrite
 
 运行jar包：`mybatis-generator-web.jar`
 
-默认端口是8080，在浏览器中打开 http://localhost:8080/index即可访问到页面
+默认端口是8080，在浏览器中打开 http://localhost:8080/index  即可访问到页面
 
 
 
